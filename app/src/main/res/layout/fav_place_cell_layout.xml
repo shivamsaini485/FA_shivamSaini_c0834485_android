@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
+            android:includeFontPadding="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#630404" />
 
@@ -31,6 +32,7 @@
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:includeFontPadding="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#9E0303" />
 
@@ -38,6 +40,7 @@
             android:id="@+id/tv_visit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:includeFontPadding="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#980606" />
 
