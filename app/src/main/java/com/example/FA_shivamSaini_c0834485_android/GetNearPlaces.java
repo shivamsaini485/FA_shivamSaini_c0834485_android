@@ -23,7 +23,7 @@ import java.util.List;
 
 public class GetNearPlaces extends AsyncTask<Object,String,String> implements GoogleMap.OnInfoWindowClickListener {
 
-    //Context context;
+    Context context;
     String type;
     String placeData;
     List<Address> addresses;
