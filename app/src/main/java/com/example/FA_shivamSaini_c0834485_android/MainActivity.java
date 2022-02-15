@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "resturent";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "restaurant", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "TEMPLE", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_museum:
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "museum";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "museum", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "LIBRARY", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_cafe:
@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "cafe";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "cafe", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "RESTAURANTS", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btn_library:
@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "library";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "library", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "GAMING CENTER", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_school:
                 mMap.clear();
@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 dataTransfer[1] = url;
                 dataTransfer[2] = "school";
                 getNearByPlaceData.execute(dataTransfer);
-                Toast.makeText(this, "Schools", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "DANCE WORKSHOP", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_hospital:
                 mMap.clear();
